@@ -44,8 +44,8 @@ pca_icd$DIS_NAME2 <- substr(pca_icd$DIS_NAME, 1, 1)
 ```{r 2dplot, echo=FALSE}
 
 
-plot_ly(pca_icd, x = ~PC1, y = ~PC2, color=~DIS_NAME2, text=~DIS_NAME,
-        marker = list(size = 5))
+#plot_ly(pca_icd, x = ~PC1, y = ~PC2, color=~DIS_NAME2, text=~DIS_NAME,
+#        marker = list(size = 5))
 
 
 ```

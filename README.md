@@ -14,6 +14,14 @@ Contact: [honghee.won@gmail.com](honghee.won@gmail.com).<br />
 2. wiki.en.bin
 
 ```
+### EDA
+[PCA plotting](https://github.com/YeongChanLee/ICD2Vec/edit/main/EDA.html)
+
+```markdown
+1. ?
+2. !?
+
+```
 
 ## ICD2Vec (1)
 

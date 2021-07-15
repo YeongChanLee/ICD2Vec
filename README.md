@@ -1,4 +1,4 @@
-# ICD2Vec
+# ICD2Vec: Mathematical representation of diseases
 
 무지성 업로딩!
 

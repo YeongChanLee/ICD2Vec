@@ -46,7 +46,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
 
     `ICD2Vec.pkl`
 
-We provide splitted zip files for ICD2Vec pkl or csv. <br/>
+We provide split zip files for ICD2Vec pkl or csv. <br/>
 The pkl file is identical with the csv file. <br/>
 For example, ICD2Vec.csv contains ICD code (DIS_CODE) and 300 dimensional vectors (V1-V300). <br/>
 Please download: <br/>

@@ -16,7 +16,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
     `git clone https://github.com/YeongChanLee/ICD2Vec.git`
 
 
-## **Step#1 Preparing data**
+## **#1 Preparing data**
 ### Fasttext model (wiki)
 - Download the pre-trained Fasttext model (Eng.):<br />
 [Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip). 
@@ -27,7 +27,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 2. wiki.en.bin (~8.0GB)
 ```
 
-## **Step#2 ICD-10-CM diagnosis code data**
+## **#2 ICD-10-CM diagnosis code data**
 - Crawling the clinical information of the ICD-10-CM codes :<br />
 [Reference url: icd10data.com](https://www.icd10data.com/). 
 
@@ -39,7 +39,7 @@ outcomes
 2. ...
 ```
 
-## **Step#3 ICD2Vec**
+## **#3 ICD2Vec**
 - Generating ICD2Vec using the following command:<br />
 
     `python ICD2VEC.ipynb (we need to check this . transfer ipynb to py?`

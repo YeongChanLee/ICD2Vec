@@ -53,13 +53,12 @@ outcomes
 
 ## Additional experiments
 #### EDA for the vectorized ICD-10-CM codes
-    (https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
+    https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
 
-### EDA for the vectorized ICD-10-CM codes
-    [PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
+#### EDA for the vectorized ICD-10-CM codes
+    https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
 
 
 **Bold** and _Italic_ and `Code` text
-
 
 [editor on GitHub](https://github.com/normalhyuk/normalhyuk.github.io/edit/master/README.md)

@@ -8,8 +8,8 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 ## Getting Started
 ### Fasttext model (wiki)
-- Download the pre-trained Fasttext model:<br />
-[download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).
+- Download the pre-trained Fasttext model (Eng.):<br />
+[Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).
 
 
 ```markdown

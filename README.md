@@ -9,6 +9,13 @@ You can use the [editor on GitHub](https://github.com/normalhyuk/normalhyuk.gith
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+## Fasttext
+Download pre-trained fasttext model .. (+ wiki.)
+1. wiki.en.vec
+2. wiki.en.bin
+https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
+
+
 ## ICD2Vec (1)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -17,10 +24,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
-Download pre-trained fasttext model .. (+ wiki.)
-1. wiki.en.vec
-2. wiki.en.bin
-https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
+
 
 
 ## Header 2

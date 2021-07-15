@@ -6,8 +6,6 @@ The International Classification of Diseases (ICD) codes represent the global st
 Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
 Contact: [honghee.won@gmail.com](honghee.won@gmail.com).<br />
 
-[editor on GitHub](https://github.com/normalhyuk/normalhyuk.github.io/edit/master/README.md)
-
 ## Fasttext
 ### Download pre-trained fasttext model .. (+ wiki.)
 
@@ -52,3 +50,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+[editor on GitHub](https://github.com/normalhyuk/normalhyuk.github.io/edit/master/README.md)

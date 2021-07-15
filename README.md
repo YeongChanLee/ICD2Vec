@@ -19,9 +19,8 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 - Download the pre-trained Fasttext model (Eng.):<br />
 [Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip). 
 
-
-```markdown
 `unzip wiki.en.zip`
+```markdown
 1. wiki.en.vec (~6.2GB)
 2. wiki.en.bin (~8.0GB)
 ```

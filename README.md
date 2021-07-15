@@ -9,7 +9,7 @@ Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2V
 Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 ## Main experiments
 
-![Overview](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec_overview.PNG)
+![Overview](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec_overview_abbr.PNG)
 
 - Clone this repository using the following git command:
 

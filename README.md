@@ -27,7 +27,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 2. wiki.en.bin (~8.0GB)
 ```
 
-### 2
+### 22222222222
 - Download the pre-trained Fasttext model (Eng.):<br />
 [Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip). 
 
@@ -37,7 +37,14 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 2. wiki.en.bin (~8.0GB)
 ```
 
-## ICD2Vec (1)
+## Crawling ICD-10-CM Diagnosis Codes data
+[Reference url: icd10data.com](https://www.icd10data.com/). 
+    `Rscript crawling_icd10data.R`
+
+```markdown
+1. ..
+2. ...
+```
 
 ### EDA
 [PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)

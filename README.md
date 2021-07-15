@@ -68,9 +68,9 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     ```
 
 ## Additional experiments
-    #### EDA for the vectorized ICD-10-CM codes
-        https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
+#### EDA for the vectorized ICD-10-CM codes
+    https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
 
-    #### 22222222
-        https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
+#### 22222222
+    https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
 

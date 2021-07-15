@@ -37,10 +37,16 @@ outcomes: ..
 
     `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
 
-```markdown
-outcomes: ..
-```
+- Outcomes: <br />
+[ICD_Code_Vectors.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip), [ICD_Code_Vectors.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01)
 
+    ```markdown
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip
+    unzip ICD_Code_Vectors.zip
+    Please place it in the same directory and decompress it through the .zip format file..
+    ```markdown
+    
 ## **#4 Arthmetic operation with ICD2Vec**
 - Generating ICD2Vec using the following command:<br />
 

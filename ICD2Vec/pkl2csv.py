@@ -1,6 +1,6 @@
 import pandas as pd
 
-tmp_df = pd.read_pickle("crawling/icd_code_vec")
+tmp_df = pd.read_pickle("./ICD2Vec.pkl")
 
 tmp0 = pd.DataFrame()
 for key, values in tmp_df.items():
@@ -13,5 +13,5 @@ for key, values in tmp_df.items():
     #print(tmp3)
     tmp0 = tmp0.append(tmp3)
 
-tmp0.to_csv("./prediction/rare_dict.csv")
+tmp0.to_csv("./ICD2Vec.csv")
 

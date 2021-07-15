@@ -2,7 +2,7 @@
 
 무지성 업로딩!
 
-Source code can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
+Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
 Contact: [honghee.won@gmail.com](honghee.won@gmail.com).<br />
 
 You can use the [editor on GitHub](https://github.com/normalhyuk/normalhyuk.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

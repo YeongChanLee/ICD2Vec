@@ -7,8 +7,9 @@ Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2V
 Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 ## Getting Started
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/R-#276DC3?style=flat-square&logo=Python&logoColor=white"/></a>
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a> &nbsp 
 
 - Clone this repository using the following git command:
 

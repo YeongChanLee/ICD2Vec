@@ -16,7 +16,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
     `git clone https://github.com/YeongChanLee/ICD2Vec.git`
 
 
-### Preparing data
+### Step#1 Preparing data
 ### Fasttext model (wiki)
 - Download the pre-trained Fasttext model (Eng.):<br />
 [Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip). 
@@ -37,11 +37,14 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 2. wiki.en.bin (~8.0GB)
 ```
 
-## Crawling ICD-10-CM Diagnosis Codes data
+## Step#2 ICD-10-CM diagnosis code data
+- Crawling the clinical information of the ICD-10-CM codes :<br />
 [Reference url: icd10data.com](https://www.icd10data.com/). 
+
     `Rscript crawling_icd10data.R`
 
 ```markdown
+outcomes
 1. ..
 2. ...
 ```

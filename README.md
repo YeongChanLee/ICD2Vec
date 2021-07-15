@@ -11,7 +11,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 ![Overview](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec_overview_abb.PNG)
 
-## **#1 Preparing data**
+## **1. Preparing data**
 ### Fasttext model (wiki)
 - Download the pre-trained Fasttext model (Eng. version):<br />
 [Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip). 

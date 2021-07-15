@@ -16,7 +16,7 @@ library(tsne)
 
 
 ```{r icd2vec}
-all_icd <- fread("ICD2Vec/ICD_Code_Vectors.csv", header = TRUE, data.table=FALSE)
+all_icd <- fread("../ICD2Vec/ICD2Vec.csv", header = TRUE, data.table=FALSE)
 colnames(all_icd)[3:302] <- paste0("V", 1:300)
 all_icd <- all_icd[,-1]
 all_icd <- rename(all_icd, DIS_NAME = DIS_CODE)

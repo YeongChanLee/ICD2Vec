@@ -15,6 +15,7 @@ r_icd <- filter(r_icd, NAME_COUNT <= 3)
 
 other_icd <- filter(all_icd, !(grepl("R", DIS_NAME)))
 
+
 set.seed(1234)
 tmp_comb2 <- c()
 r_comb <- c()

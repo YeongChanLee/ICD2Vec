@@ -36,7 +36,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01
 
     unzip parent_based_crawled_encoding_dup.7z
-    Please place it in the same directory and decompress it through the .zip format file.
+    ※ Please place it in the same directory and decompress it through the .zip format file.
     ```
     
 
@@ -54,7 +54,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01
     
     unzip ICD_Code_Vectors.zip
-    Please place it in the same directory and decompress it through the .zip format file.
+    ※ Please place it in the same directory and decompress it through the .zip format file.
     ```
     
 ## **#4 Arthmetic operation with ICD2Vec**

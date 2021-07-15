@@ -50,17 +50,19 @@ We provide split zip files for ICD2Vec pkl or csv. <br/>
 The pkl file is identical with the csv file. <br/>
 For example, ICD2Vec.csv contains ICD code (DIS_CODE) and 300 dimensional vectors (V1-V300). <br/>
 Please download: <br/>
-(1) [ICD2Vec.csv.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.zip), (2) [ICD2Vec.csv.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.z01) <br/>
-or <br/>
-(1) [ICD2Vec.pkl.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip), (2) [ICD2Vec.pkl.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01)
+    (1) [ICD2Vec.csv.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.zip), (2) [ICD2Vec.csv.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.z01) <br/>
+    or <br/>
+    (1) [ICD2Vec.pkl.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip), (2) [ICD2Vec.pkl.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01) <br/>
 
-    ```markdown
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01
-    
     unzip ICD2Vec.pkl.zip
+    
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.zip
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.z01
+    unzip ICD2Vec.csv.zip
+    
     ※ Please place it in the same directory and decompress it through the .zip format file.
-    ```
     
 ## **4. Arthmetic operation with ICD2Vec**
 - Analogical reasoning with ICD2Vec (Table 1 and Table 2)<br />

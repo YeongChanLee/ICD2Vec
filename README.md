@@ -63,6 +63,8 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     ```
 
 ## Additional experiments
-#### EDA for the vectorized ICD-10-CM codes
-    https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/examples/EDA.Rmd
+- EDA for the vectorized ICD-10-CM codes
+- See 'examples' directory
+
+    `EDA.Rmd`
 

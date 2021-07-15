@@ -29,7 +29,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 ## **#2 ICD-10-CM diagnosis code data**
 - Crawling the clinical information of the ICD-10-CM codes :<br />
-[Reference url: icd10data.com](https://www.icd10data.com/). 
+Reference url: [icd10data.com](https://www.icd10data.com/). 
 
     `Rscript crawling_icd10data.R`
 

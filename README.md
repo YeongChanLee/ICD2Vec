@@ -6,12 +6,16 @@ The International Classification of Diseases (ICD) codes represent the global st
 Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
 Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
+## Getting Started
 ## Fasttext
 ### Download pre-trained Fasttext model .. (+ wiki.)
-[download link](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).
+
 ```markdown
-1. wiki.en.vec
-2. wiki.en.bin
+- Download the pre-trained Fasttext model:
+[download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).
+
+1. wiki.en.vec (~GB)
+2. wiki.en.bin (~GB)
 
 ```
 

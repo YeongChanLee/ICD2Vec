@@ -40,9 +40,9 @@ outcomes
 ```
 
 ## **Step#3 ICD2Vec**
-- Generating ICD2Vec :<br />
+- Generating ICD2Vec using the following command:<br />
 
-    `ICD2VEC.ipynb`
+    `python ICD2VEC.ipynb (we need to check this . transfer ipynb to py?`
 
 ```markdown
 outcomes

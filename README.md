@@ -8,7 +8,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 ## Getting Started
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp 
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a> &nbsp 
 
 - Clone this repository using the following git command:
 

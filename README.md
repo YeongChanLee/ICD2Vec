@@ -15,7 +15,7 @@ Contact: [honghee.won@gmail.com](honghee.won@gmail.com).<br />
 
 ```
 ### EDA
-[PCA plotting](https://github.com/YeongChanLee/ICD2Vec/edit/main/EDA.html)
+[PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
 
 ```markdown
 1. ?

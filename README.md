@@ -14,6 +14,12 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+Download pre-trained fasttext model .. (+ wiki.)
+1. wiki.en.vec
+2. wiki.en.bin
+https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
+
+
 ## Header 2
 ### Header 3
 #### just test by shj

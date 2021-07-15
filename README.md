@@ -10,11 +10,12 @@ You can use the [editor on GitHub](https://github.com/normalhyuk/normalhyuk.gith
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ## Fasttext
+```markdown
 Download pre-trained fasttext model .. (+ wiki.)
 1. wiki.en.vec
 2. wiki.en.bin
 https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
-
+```
 
 ## ICD2Vec (1)
 

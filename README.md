@@ -11,7 +11,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 ### Download pre-trained Fasttext model .. (+ wiki.)
 
 
-- Download the pre-trained Fasttext model:
+- Download the pre-trained Fasttext model:<br />
 [download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).
 
 

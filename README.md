@@ -47,7 +47,7 @@ outcomes: ..
 outcomes: ..
 ```
 
-## **#4 Cosine similarity scoring**
+## **#4 Arthmetic operation with ICD2Vec**
 - Generating ICD2Vec using the following command:<br />
 
     `python ICD2VEC_Similarity.ipynb (Do we need to transfer *ipynb to py?)`

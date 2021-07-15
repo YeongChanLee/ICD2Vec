@@ -6,6 +6,7 @@ The International Classification of Diseases (ICD) codes represent the global st
 Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
 Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
+## Main experiments
 ## Getting Started
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=R&logoColor=white"/></a>

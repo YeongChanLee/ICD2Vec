@@ -29,7 +29,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     `Rscript crawling_icd10data.R`
 
 - Outcomes: <br />
-[parent_based_crawled_encoding_dup.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip), [parent_based_crawled_encoding_dup.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01)
+1 [parent_based_crawled_encoding_dup.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip), 2 [parent_based_crawled_encoding_dup.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01)
 
     ```markdown
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip
@@ -47,7 +47,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
 
 - Outcomes: <br />
-[ICD_Code_Vectors.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip), [ICD_Code_Vectors.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01)
+1 [ICD_Code_Vectors.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip), 2 [ICD_Code_Vectors.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01)
 
     ```markdown
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip

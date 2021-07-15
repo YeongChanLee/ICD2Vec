@@ -2,6 +2,10 @@
 
 무지성 업로딩!
 
+
+Source code can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).
+Contact: [honghee.won@gmail.com](honghee.won@gmail.com).
+
 You can use the [editor on GitHub](https://github.com/normalhyuk/normalhyuk.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.

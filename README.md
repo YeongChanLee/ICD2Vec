@@ -38,7 +38,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
 
 
 ## **3. ICD2Vec development**
-- Generating ICD2Vec using the following command:<br />
+- Generate ICD2Vec with this code:<br />
 
     `ICD2VEC.ipynb`
 

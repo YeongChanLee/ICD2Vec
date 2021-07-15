@@ -44,7 +44,7 @@ outcomes: ..
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip
     unzip ICD_Code_Vectors.zip
-    Please place it in the same directory and decompress it through the .zip format file..
+    Please place it in the same directory and decompress it through the .zip format file.
     ```
     
 ## **#4 Arthmetic operation with ICD2Vec**

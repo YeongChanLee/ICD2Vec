@@ -3,7 +3,7 @@ library(dplyr)
 library(data.table)
 library(proxy)
 
-all_icd <- as.data.frame(fread("../ICD2Vec_raw_data/ICD_Code_Vectors.csv", header = TRUE))
+all_icd <- as.data.frame(fread("../crawling/ICD_Code_Vectors.csv", header = TRUE))
 colnames(all_icd)[3:302] <- paste0("V", 1:300)
 all_icd <- all_icd[,-1]
 all_icd <- rename(all_icd, DIS_NAME = DIS_CODE)

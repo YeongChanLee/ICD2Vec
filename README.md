@@ -43,7 +43,7 @@ outcomes
 ## **#3 ICD2Vec**
 - Generating ICD2Vec using the following command:<br />
 
-    `python ICD2VEC.ipynb (we need to check this . transfer ipynb to py?)`
+    `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
 
 ```markdown
 outcomes

@@ -28,9 +28,17 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
 
     `Rscript crawling_icd10data.R`
 
-```markdown
-outcomes: ..
-```
+- Outcomes: <br />
+[parent_based_crawled_encoding_dup.7z](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.7z)
+
+    ```markdown
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.7z
+    
+    apt-get install p7zip
+    7zr x parent_based_crawled_encoding_dup.7z
+    ```
+    
+
 
 ## **#3 ICD2Vec development**
 - Generating ICD2Vec using the following command:<br />

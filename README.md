@@ -29,13 +29,14 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     `Rscript crawling_icd10data.R`
 
 - Outcomes: <br />
-[parent_based_crawled_encoding_dup.7z](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.7z)
+[parent_based_crawled_encoding_dup.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip), [parent_based_crawled_encoding_dup.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01)
 
     ```markdown
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.7z
-    
-    apt-get install p7zip
-    7zr x parent_based_crawled_encoding_dup.7z
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01
+
+    unzip parent_based_crawled_encoding_dup.7z
+    Please place it in the same directory and decompress it through the .zip format file.
     ```
     
 
@@ -49,8 +50,9 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
 [ICD_Code_Vectors.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip), [ICD_Code_Vectors.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01)
 
     ```markdown
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01
+    
     unzip ICD_Code_Vectors.zip
     Please place it in the same directory and decompress it through the .zip format file.
     ```

@@ -11,11 +11,6 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 ![Overview](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec_overview_abb.PNG)
 
-- Clone this repository using the following git command:
-
-    `git clone https://github.com/YeongChanLee/ICD2Vec.git`
-
-
 ## **#1 Preparing data**
 ### Fasttext model (wiki)
 - Download the pre-trained Fasttext model (Eng.):<br />

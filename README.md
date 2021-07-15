@@ -39,6 +39,17 @@ outcomes
 2. ...
 ```
 
+## **Step#3 ICD2Vec**
+- Generating ICD2Vec :<br />
+
+    `ICD2VEC.ipynb`
+
+```markdown
+outcomes
+1. ..
+2. ...
+```
+
 ### EDA
 [PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
 

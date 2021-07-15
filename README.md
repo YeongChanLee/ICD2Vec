@@ -17,6 +17,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
     `git clone https://github.com/YeongChanLee/ICD2Vec.git`
 
 
+## Dataset
 ## **#1 Preparing data**
 ### Fasttext model (wiki)
 - Download the pre-trained Fasttext model (Eng.):<br />
@@ -40,10 +41,21 @@ outcomes
 2. ...
 ```
 
-## **#3 ICD2Vec**
+## **#3 ICD2Vec development**
 - Generating ICD2Vec using the following command:<br />
 
     `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
+
+```markdown
+outcomes
+1. ..
+2. ...
+```
+
+## **#4 Cosine similarity scoring**
+- Generating ICD2Vec using the following command:<br />
+
+    `python ICD2VEC_Similarity.ipynb (Do we need to transfer *ipynb to py?)`
 
 ```markdown
 outcomes

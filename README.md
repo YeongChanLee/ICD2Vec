@@ -5,9 +5,9 @@ The International Classification of Diseases (ICD) codes represent the global st
 
 Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
 Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
+## Getting Started
 
 ## Main experiments
-## Getting Started
 <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=R&logoColor=white"/></a>
 
@@ -17,7 +17,6 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
     `git clone https://github.com/YeongChanLee/ICD2Vec.git`
 
 
-## Dataset
 ## **#1 Preparing data**
 ### Fasttext model (wiki)
 - Download the pre-trained Fasttext model (Eng.):<br />
@@ -36,9 +35,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     `Rscript crawling_icd10data.R`
 
 ```markdown
-outcomes
-1. ..
-2. ...
+outcomes: ..
 ```
 
 ## **#3 ICD2Vec development**
@@ -47,9 +44,7 @@ outcomes
     `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
 
 ```markdown
-outcomes
-1. ..
-2. ...
+outcomes: ..
 ```
 
 ## **#4 Cosine similarity scoring**
@@ -58,9 +53,7 @@ outcomes
     `python ICD2VEC_Similarity.ipynb (Do we need to transfer *ipynb to py?)`
 
 ```markdown
-outcomes
-1. ..
-2. ...
+outcomes: ..
 ```
 
 ## Additional experiments

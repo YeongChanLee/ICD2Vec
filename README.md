@@ -51,6 +51,7 @@ The pkl file is identical with the csv file. <br/>
 For example, ICD2Vec.csv contains ICD code (DIS_CODE) and 300 dimensional vectors (V1-V300). <br/>
 Please download: <br/>
 (1) [ICD2Vec.csv.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.zip), (2) [ICD2Vec.csv.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.z01) <br/>
+or <br/>
 (1) [ICD2Vec.pkl.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip), (2) [ICD2Vec.pkl.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01)
 
     ```markdown

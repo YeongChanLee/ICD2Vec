@@ -29,16 +29,12 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     `Rscript crawling_icd10data.R`
 
 - Outcomes: <br />
-(1) [parent_based_crawled_encoding_dup.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip), (2) [parent_based_crawled_encoding_dup.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01)
+(1) [icd_info4.csv](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/icd_info4.csv)
 
     ```markdown
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.zip
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/parent_based_crawled_encoding_dup.z01
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/icd_info4.csv
 
-    unzip parent_based_crawled_encoding_dup.7z
-    ※ Please place it in the same directory and decompress it through the .zip format file.
     ```
-    
 
 
 ## **3. ICD2Vec development**
@@ -47,30 +43,26 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
 
 - Outcomes: <br />
-(1) [ICD_Code_Vectors.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip), (2) [ICD_Code_Vectors.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01)
+(1) [ICD2Vec.pkl.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip), (2) [ICD2Vec.pkl.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01)
 
     ```markdown
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.zip
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD_Code_Vectors.z01
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip
+    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01
     
-    unzip ICD_Code_Vectors.zip
+    unzip ICD2Vec.pkl.zip
     ※ Please place it in the same directory and decompress it through the .zip format file.
     ```
     
 ## **4. Arthmetic operation with ICD2Vec**
-- Generating ICD2Vec using the following command:<br />
-
-    `python ICD2VEC_Similarity.ipynb (Do we need to transfer *ipynb to py?)`
+- Analogical reasoning with ICD2Vec (Table 1 and Table 2)<br />
+- See 'examples' directory
 
     ```markdown
-    outcomes: ...
-    examples: ...
+    input: query_to_vec("Skin Itching")
+    output: L29, R23, C44
     ```
 
 ## Additional experiments
 #### EDA for the vectorized ICD-10-CM codes
-    https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
-
-#### 22222222
-    https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html
+    https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/examples/EDA.Rmd
 

@@ -14,6 +14,9 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 2. wiki.en.bin
 
 ```
+
+## ICD2Vec (1)
+
 ### EDA
 [PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
 
@@ -22,8 +25,6 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 2. !?
 
 ```
-
-## ICD2Vec (1)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

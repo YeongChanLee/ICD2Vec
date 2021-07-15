@@ -10,13 +10,14 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 ## Fasttext
 ### Download pre-trained Fasttext model .. (+ wiki.)
 
-```markdown
+
 - Download the pre-trained Fasttext model:
 [download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).
 
+
+```markdown
 1. wiki.en.vec (~GB)
 2. wiki.en.bin (~GB)
-
 ```
 
 ## ICD2Vec (1)

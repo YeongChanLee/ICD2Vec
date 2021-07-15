@@ -42,7 +42,7 @@ outcomes
 ## **#3 ICD2Vec**
 - Generating ICD2Vec using the following command:<br />
 
-    `python ICD2VEC.ipynb (we need to check this . transfer ipynb to py?`
+    `python ICD2VEC.ipynb (we need to check this . transfer ipynb to py?)`
 
 ```markdown
 outcomes
@@ -50,38 +50,15 @@ outcomes
 2. ...
 ```
 
-### EDA
+## Additional experiments
+### EDA for the vectorized ICD-10-CM codes
 [PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
 
-```markdown
-1. ?
-2. !?
+### EDA for the vectorized ICD-10-CM codes
+[PCA plotting](https://github.com/YeongChanLee/ICD2Vec/blob/main/EDA.html)
 
-```
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-
-
-
-## Header 2
-### Header 3
-#### just test by shj
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 
 [editor on GitHub](https://github.com/normalhyuk/normalhyuk.github.io/edit/master/README.md)

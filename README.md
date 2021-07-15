@@ -22,7 +22,7 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
     2. wiki.en.bin (~8.0GB)
     ```
 
-## **#2 Crawling the ICD-10-CM data**
+## **2. Crawling the ICD-10-CM data**
 - Crawling the clinical information of the ICD-10-CM codes :<br />
 Reference url: [icd10data.com](https://www.icd10data.com/). 
 
@@ -41,7 +41,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     
 
 
-## **#3 ICD2Vec development**
+## **3. ICD2Vec development**
 - Generating ICD2Vec using the following command:<br />
 
     `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
@@ -57,7 +57,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
     ※ Please place it in the same directory and decompress it through the .zip format file.
     ```
     
-## **#4 Arthmetic operation with ICD2Vec**
+## **4. Arthmetic operation with ICD2Vec**
 - Generating ICD2Vec using the following command:<br />
 
     `python ICD2VEC_Similarity.ipynb (Do we need to transfer *ipynb to py?)`

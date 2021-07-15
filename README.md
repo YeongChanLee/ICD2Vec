@@ -40,7 +40,7 @@ Reference url: [icd10data.com](https://www.icd10data.com/).
 ## **3. ICD2Vec development**
 - Generating ICD2Vec using the following command:<br />
 
-    `python ICD2VEC.ipynb (Do we need to transfer *ipynb to py?)`
+    `ICD2VEC.ipynb`
 
 - Outcomes: <br />
 (1) [ICD2Vec.pkl.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip), (2) [ICD2Vec.pkl.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01)

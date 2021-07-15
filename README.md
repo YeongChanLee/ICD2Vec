@@ -13,8 +13,8 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 
 
 ```markdown
-1. wiki.en.vec (~GB)
-2. wiki.en.bin (~GB)
+1. wiki.en.vec (~6.2GB)
+2. wiki.en.bin (~8.0GB)
 ```
 
 ## ICD2Vec (1)

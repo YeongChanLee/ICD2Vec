@@ -7,12 +7,12 @@ Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2V
 Contact: [honghee.won@gmail.com](honghee.won@gmail.com).<br />
 
 ## Fasttext
-### Download pre-trained fasttext model .. (+ wiki.)
+### Download pre-trained Fasttext model .. (+ wiki.)
 
 ```markdown
 1. wiki.en.vec
 2. wiki.en.bin
-https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip
+[download link](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip).<br />
 ```
 
 ## ICD2Vec (1)

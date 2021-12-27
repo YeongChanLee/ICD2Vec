@@ -5,74 +5,83 @@
 The International Classification of Diseases (ICD) codes represent the global standard for reporting disease conditions. The current ICD codes are hierarchically structured and only connote partial relationships among diseases. Therefore, it is important to represent the ICD codes as mathematical vectors to indicate the complex relationships across diseases. Here, we proposed a framework denoted **_ICD2Vec_** for providing mathematical representations of diseases by encoding corresponding information. First, we presented the arithmetic and semantic relationships between diseases by mapping composite vectors for symptoms or diseases to the most similar ICD codes. Second, we confirmed the validity of ICD2Vec by comparing the biological relationships and cosine similarities among the vectorized ICD codes. Third, we proposed a new risk score derived from ICD2Vec, and demonstrated its potential clinical utility for coronary artery disease, type 2 diabetes, dementia, and liver cancer, based on a large prospective cohort from the UK and large electronic medical records from a medical center in South Korea. In summary, ICD2Vec is applicable for diverse quantitative analyses using ICD codes in biomedical research.
 
 
-Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br />
+Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2Vec/](https://github.com/YeongChanLee/ICD2Vec/).<br/>
 Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
-## Main experiments
+## Overview
 
-![Overview](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec_overview_abb.PNG)
+<img src="https://github.com/YeongChanLee/ICD2Vec/blob/v0.2/ICD2Vec/ICD2Vec_abstract.PNG" width="379" height="540"/>
 
-## **1. Preparing data**
-### Fasttext model (wiki)
-- Download the pre-trained Fasttext model (Eng. version):<br />
-[Download link (~15GB)](https://dl.fbaipublicfiles.com/fasttext/vectors-wiki/wiki.en.zip). 
+## Setting
+- We recommend to install recent version of Pytorch and Tensorflow.
+- My setting (main packages):
 
-    `unzip wiki.en.zip`
     ```markdown
-    1. wiki.en.vec (~6.2GB)
-    2. wiki.en.bin (~8.0GB)
+    PyTorch: 1.9.0+cu111
+    Tensorflow: 2.4.1
     ```
 
-## **2. Crawling the ICD-10-CM data**
+## ICD2Vec development
+## **1. Crawling ICD-10-CM information**
 - Crawling the clinical information of the ICD-10-CM codes :<br />
 Reference url: [icd10data.com](https://www.icd10data.com/). 
 
-    `Rscript crawling_icd10data.R`
+    `Rscript code/1.crawling_icd10data.R`
 
 - Outcomes: <br />
-(1) [icd_info4.csv](https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/icd_info4.csv)
+(1) [icd_info4.csv](https://github.com/YeongChanLee/ICD2Vec/tree/v0.2/code/icd_info4.csv)
 
     ```markdown
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/crawling/icd_info4.csv
 
     ```
 
+## **2. Fine-tuning Bio+Clinical BERT using clinical information of diseases**
+We introduce to develop ICD2Vec based on [Bio+Clinical BERT](https://arxiv.org/abs/1904.03323). <br/>
+We can build ICD2Vec with simple codes and a pretrained model. You can use another model. <br/>
+You can also easily apply ICD2Vec based on other models in our paper.<br/>
+
+### Bio+Clinical BERT
+- Download the pre-trained [Bio+Clinical BERT model](https://huggingface.co/emilyalsentzer/Bio_ClinicalBERT) using [HuggingFace](https://huggingface.co/).<br/>
+
+    `import transformers`
+    ```markdown
+    from transformers import TrainingArguments, Trainer, AutoTokenizer, AutoModelForMaskedLM, AutoConfig
+    
+    config = AutoConfig.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
+    tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
+    model = AutoModelForMaskedLM.from_pretrained("emilyalsentzer/Bio_ClinicalBERT", config=config)
+    ```
+- Full script is for masked language modeling for fine-tuning in the code 'code/2.mlm_finetuning.py'
+
 
 ## **3. ICD2Vec development**
 - Generate ICD2Vec with this code:<br />
 
-    `ICD2VEC.ipynb`
+    `code/3.develop_ICD2Vec.py`
 
-- Outcomes: <br />
+- Outcomes (for example): <br />
 
-    `ICD2Vec.pkl`
+    `model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning.pkl`
 
-    We provide split zip files for ICD2Vec pkl or csv. <br/>
+    We provide split ICD2Vec pkl or csv. <br/>
     The pkl file is identical with the csv file. <br/>
-    For example, ICD2Vec.csv contains ICD code (DIS_CODE) and 300 dimensional vectors (V1-V300). <br/>
+    For example, ICD2Vec.csv contains ICD code (column name of 'DIS_CODE') and 768 dimensional vectors. <br/>
     Please download: <br/>
-    (1) [ICD2Vec.csv.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.zip), (2) [ICD2Vec.csv.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.z01) <br/>
-    or <br/>
-    (1) [ICD2Vec.pkl.zip](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip), (2) [ICD2Vec.pkl.z01](https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01)
+    (1) 
 
     ```markdown
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.zip
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.pkl.z01
-    unzip ICD2Vec.pkl.zip
+    wget 
     
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.zip
-    wget https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec/ICD2Vec.csv.z01
-    unzip ICD2Vec.csv.zip
-    
-    ※ Please place it in the same directory and decompress it through the .zip format file.
     ```
     
-## **4. Arthmetic operation with ICD2Vec**
-- Analogical reasoning with ICD2Vec (Table 1 and Table 2)<br />
-- See 'examples' directory
+## **4. Analogical reasoning with ICD2Vec**
+- Analogical reasoning with ICD2Vec (Table 1)<br />
+- See 'code/4.similarity_ICD2Vec.py'
+- For example,
 
     ```markdown
-    input: query_to_vec("Skin Itching")
-    output: L29, R23, C44
+    input: "Nearsightedness is a common vision condition in which you can see objects near to you clearly, but objects farther away are blurry."
+    output(top-5 ICD codes): ['H53', 'H52', 'H44', 'F40', 'R11']
     ```
 
 ## Additional experiments

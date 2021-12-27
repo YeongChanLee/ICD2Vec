@@ -12,8 +12,8 @@ Contact: [honghee.won@gmail.com](mailto:honghee.won@gmail.com).<br />
 ![Overview](https://github.com/YeongChanLee/ICD2Vec/blob/v0.2/ICD2Vec/ICD2Vec_abstract.PNG)
 
 ## Setting
-- We recommend to install recent version of Pytorch and Tensorflow
-- My setting:
+- We recommend to install recent version of Pytorch and Tensorflow.
+- My setting (main packages):
 
     ```markdown
     PyTorch: 1.9.0+cu111

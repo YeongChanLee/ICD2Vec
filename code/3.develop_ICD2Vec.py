@@ -51,7 +51,7 @@ for key, value in icd_code_vec.items():  # For maintaining hierarchy in ICD code
     if flag > 1:
         icd_code_vec[key] = icd_code_vec[key] / flag
 
-save_obj(icd_code_vec, "model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning") # ICD2Vec
+save_obj(icd_code_vec, "../model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning") # ICD2Vec
 
 cosine_similarity(icd_code_vec['A00'], icd_code_vec['A001'])
 

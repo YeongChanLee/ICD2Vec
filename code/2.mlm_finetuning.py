@@ -61,5 +61,5 @@ trainer = Trainer(
 )
 
 trainer.train()
-trainer.save_model("../model/biobert-large_icd2vec_finetuning")
+trainer.save_model("../model/bio-clinicalBERT_icd2vec_finetuning")
 

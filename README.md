@@ -70,8 +70,8 @@ You can also easily apply ICD2Vec based on other models in our paper.<br/>
     (1) 
 
     ```markdown
-    wget 
-    
+    model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning.zip
+    model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning.z01    
     ```
     
 ## **4. Analogical reasoning with ICD2Vec**

@@ -7,7 +7,7 @@ from utils import get_dataset
 
 config = AutoConfig.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
 tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-model = AutoModel.from_pretrained("emilyalsentzer/Bio_ClinicalBERT", config=config)
+model = AutoModel.from_pretrained("../model/bio-clinicalBERT_icd2vec_finetuning", config=config)
 fep = pipeline('feature-extraction', model=model, tokenizer=tokenizer, config=config)
 
 

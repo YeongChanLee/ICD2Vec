@@ -1,5 +1,6 @@
 
 ## README first,
+- Please understand that we cannot upload all files for ICD2Vec due to data volumes.
 - We provide csv files including the vectors of ICD codes from ICD2Vec based on Bio+Clinical BERT.
 - Using the csv file, You can get the identical results with our paper.
 
@@ -11,4 +12,4 @@
   2.make_ICD2Vec.py
   3.pkl2csv.py
   ```
-  then you can get the identical csv file and a trained model with ICD2Vec.
+  then you can get the identical csv file and a trained model with ICD2Vec in this directory.

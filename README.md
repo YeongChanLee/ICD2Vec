@@ -85,8 +85,12 @@ You can also easily apply ICD2Vec based on other models in our paper.<br/>
     ```
 
 ## Additional experiments
+- http://www.icd2vec.kro.kr/
 - EDA for the vectorized ICD-10-CM codes
 - See 'examples' directory
 
     `EDA.Rmd`
+
+## Citation
+- We will notice soon.
 

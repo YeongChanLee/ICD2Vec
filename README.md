@@ -19,7 +19,7 @@ Source code and data can be downloaded at [https://github.com/YeongChanLee/ICD2V
 Contact: [conan_8th@naver.com](mailto:conan_8th@naver.com).<br />
 ## Overview
 
-<img src="https://github.com/YeongChanLee/ICD2Vec/blob/v0.2/ICD2Vec/ICD2Vec_abstract.PNG" width="379" height="540"/>
+<img src="https://github.com/YeongChanLee/ICD2Vec/blob/main/ICD2Vec/ICD2Vec_abstract.PNG" width="379" height="540"/>
 
 ## Setting
 - We recommend to install recent version of Pytorch and Tensorflow.

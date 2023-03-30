@@ -1,6 +1,7 @@
+#%%
 import pickle
 import numpy as np
-from transformers import AutoTokenizer, AutoModel,pipeline, AutoConfig
+from transformers import AutoTokenizer, AutoModel, FeatureExtractionPipeline, pipeline, AutoConfig
 from sklearn.metrics.pairwise import cosine_similarity
 
 
@@ -11,21 +12,28 @@ def load_obj(name):  # for loading the pickle file
         return None
     else:
         return pickle.load(f)
+# GatorTron-OG_fintuning
+icd_vec = load_obj("model/GatorTron-OG_icd2vec_finetuning/icd_code_vec_GatorTron-OG_finetuning")
+config = AutoConfig.from_pretrained("model/GatorTron-OG_icd2vec_finetuning/")
+tokenizer = AutoTokenizer.from_pretrained("model/GatorTron-OG")
+model = AutoModel.from_pretrained("model/GatorTron-OG_icd2vec_finetuning/")
+fep = pipeline('feature-extraction', model=model, tokenizer=tokenizer, config=config)
 
-# Bio_ClinicalBERT
-icd_vec = load_obj("../model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning")
-config = AutoConfig.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-model = AutoModel.from_pretrained("../model/bio-clinicalBERT_icd2vec_finetuning", config=config)
-fep = pipeline('feature-extraction', model=model, tokenizer=tokenizer)
-
-
+# GatorTron-OG
+"""
+icd_vec = load_obj("model/GatorTron-OG/icd_code_vec_GatorTron-OG")
+config = AutoConfig.from_pretrained("model/GatorTron-OG/")
+tokenizer = AutoTokenizer.from_pretrained("model/GatorTron-OG")
+model = AutoModel.from_pretrained("model/GatorTron-OG/")
+fep = pipeline('feature-extraction', model=model, tokenizer=tokenizer, config=config)
+"""
 def word_encoding(word):      #return vector representation of each words
     encoded_word = np.array(fep(word)).squeeze()
     encoded_word = np.average(encoded_word, axis=0)
     encoded_word = np.expand_dims(encoded_word, axis=0)
     return encoded_word
 
+#%%
 #For finding ICD codes related to the symptoms
 query_vec = word_encoding("Nearsightedness is a common vision condition in which you can see objects near to you clearly, but objects farther away are blurry.")
 ans_dict = dict()
@@ -41,6 +49,7 @@ print(ans_dict[my_ans[0]],
       ans_dict[my_ans[3]],
       ans_dict[my_ans[4]])
 
+#%%
 #For finding ICD codes related to the symptoms
 query_vec = word_encoding("Itchy skin is an uncomfortable, irritating sensation that makes you want to scratch.")
 ans_dict = dict()
@@ -56,6 +65,7 @@ print(ans_dict[my_ans[0]],
       ans_dict[my_ans[3]],
       ans_dict[my_ans[4]])
 
+#%%
 #For finding ICD codes related to the symptoms
 query_vec = word_encoding("Coma is a state of prolonged unconsciousness that can be caused by a variety of problems.")
 ans_dict = dict()
@@ -115,6 +125,8 @@ print(ans_dict[my_ans[0]],
       ans_dict[my_ans[3]],
       ans_dict[my_ans[4]])
 
+#%%
+
 query_vec = word_encoding("Coronaviruses are a family of viruses that can cause illnesses such as the common cold, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS). In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China. \
 The virus is now known as the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease it causes is called coronavirus disease 2019 (COVID-19). In March 2020, the World Health Organization (WHO) declared the COVID-19 outbreak a pandemic. \
 Public health groups, including the U.S. Centers for Disease Control and Prevention (CDC) and WHO, are monitoring the pandemic and posting updates on their websites. These groups have also issued recommendations for preventing and treating the illness. \
@@ -133,3 +145,5 @@ print(ans_dict[my_ans[0]],
       ans_dict[my_ans[2]],
       ans_dict[my_ans[3]],
       ans_dict[my_ans[4]])
+
+# %%

@@ -1,6 +1,6 @@
 import pandas as pd
 
-fname = "model/GatorTron-OG_icd2vec_finetuning/icd_code_vec_GatorTron-OG_finetuning_20230324-OG"
+fname = "model/GatorTron-OG_icd2vec_finetuning/icd_code_vec_GatorTron-OG_finetuning"
 tmp_df = pd.read_pickle(fname+".pkl")
 
 tmp0 = pd.DataFrame()

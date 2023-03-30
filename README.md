@@ -72,9 +72,9 @@ You can also easily apply ICD2Vec based on other models in our paper.<br/>
     ```markdown
     from transformers import TrainingArguments, Trainer, AutoTokenizer, AutoModelForMaskedLM, AutoConfig
     
-    config = AutoConfig.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-    tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
-    model = AutoModelForMaskedLM.from_pretrained("emilyalsentzer/Bio_ClinicalBERT", config=config)
+    config = AutoConfig.from_pretrained("model/GatorTron-OG")
+    tokenizer = AutoTokenizer.from_pretrained("model/GatorTron-OG")
+    model = AutoModelForMaskedLM.from_pretrained("model/GatorTron-OG", config=config)
     ```
 - Full script is for masked language modeling for fine-tuning in the code 'code/2.mlm_finetuning.py'
 
@@ -82,15 +82,15 @@ You can also easily apply ICD2Vec based on other models in our paper.<br/>
 ## **3. ICD2Vec development**
 - Generate ICD2Vec with this code:<br />
 
-    `code/3.develop_ICD2Vec.py`
+    `code/2.develop_ICD2Vec.py`
 
 - Outcomes (for example): <br />
 
-    `model/bio-clinicalBERT_icd2vec_finetuning/icd_code_vec_bio-clinicalBERT_finetuning.pkl`
+    `model/GatorTron-OG_icd2vec_finetuning/icd_code_vec_GatorTron-OG_finetuning.pkl`
 
     We provide split ICD2Vec pkl or csv. <br/>
     The pkl file is identical with the csv file. <br/>
-    For example, ICD2Vec.csv contains ICD code (column name of 'DIS_CODE') and 768 dimensional vectors. <br/>
+    For example, ICD2Vec.csv contains ICD code (column name of 'DIS_CODE') and 1024 dimensional vectors. <br/>
     Please download: <br/>
     (1) 
 
@@ -105,8 +105,8 @@ You can also easily apply ICD2Vec based on other models in our paper.<br/>
 - For example,
 
     ```markdown
-    input: "Nearsightedness is a common vision condition in which you can see objects near to you clearly, but objects farther away are blurry."
-    output(top-5 ICD codes): ['H53', 'H52', 'H44', 'F40', 'R11']
+    input: "Coronaviruses are a family of viruses that can cause illnesses such as the common cold, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS). In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China. The virus is now known as the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease it causes is called coronavirus disease 2019 (COVID-19). In March 2020, the World Health Organization (WHO) declared the COVID-19 outbreak a pandemic. Public health groups, including the U.S. Centers for Disease Control and Prevention (CDC) and WHO, are monitoring the pandemic and posting updates on their websites. These groups have also issued recommendations for preventing and treating the illness. Signs and symptoms of coronavirus disease 2019 (COVID-19) may appear two to 14 days after exposure. This time after exposure and before having symptoms is called the incubation period. Common signs and symptoms can include: Fever, Cough, Tiredness. Early symptoms of COVID-19 may include a loss of taste or smell. Other symptoms can include: Shortness of breath or difficulty breathing, Muscle aches, Chills, Sore throat, Runny nose, Headache, Chest pain, Pink eye (conjunctivitis)."
+    output(top-5 ICD codes): ['J00', 'A99', 'B03', 'A90', 'B20']
     ```
 
 ## Additional experiments

@@ -99,7 +99,7 @@ You can also easily apply ICD2Vec based on other models in our paper.<br/>
     
     wget https://github.com/YeongChanLee/ICD2Vec/blob/main/model/GatorTron-OG_icd2vec_finetuning/icd_code_vec_GatorTron-OG_finetuning_24354codes.z01
 
-    7z x icd_code_vec_GatorTron-OG_finetuning_24354codes_reupload.zip
+    7z x icd_code_vec_GatorTron-OG_finetuning_24354codes.zip
     
     ```
     
